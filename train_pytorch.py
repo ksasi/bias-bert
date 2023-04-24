@@ -486,3 +486,4 @@ def safe_model(output_dir, model, tokenizer ):
 #for spec in specs_in:
 #    train(task=task_in, spec=spec, lr_in=lr, name_addition=na)
 
+train(task='IMDB', model_id='bertbase', spec='mix_pro', lr_in=2e-5, batch_s=16, run="ex_Tw_LR", name_addition='LR2')
